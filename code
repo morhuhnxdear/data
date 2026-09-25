@@ -1,0 +1,1 @@
+python -c "import MetaTrader5 as m; m.initialize(); t=m.terminal_info(); print('trade_allowed =', t.trade_allowed); print('tradeapi_disabled =', t.tradeapi_disabled); print('path =', t.path)"
